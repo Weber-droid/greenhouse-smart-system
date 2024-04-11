@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url('/static/17638.jpg');
+    background-size: cover;
+    /* or 'contain' */
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .card-text {
+        font-size: 24px;
+    }
+}
